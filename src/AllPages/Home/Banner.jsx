@@ -27,8 +27,10 @@ const Banner = () => {
                     <h1 className='text-[#244D3F] text-3xl font-semibold'>12</h1>
                     <p className='text-[18px]'>Interactions This Month</p>
                 </div>
+               
                 
             </div>
+            
            </div>
         </div>
     );
