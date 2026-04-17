@@ -1,16 +1,28 @@
-# React + Vite
+# 👫 Friendship Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-8884d8?logo=chartdotjs&logoColor=white)
+![Toastify](https://img.shields.io/badge/React_Toastify-FFDD00?logo=react&logoColor=black)
 
-Currently, two official plugins are available:
+## 📖 Description
+Friendship Tracker is a responsive React application that helps users manage and analyze their friendships. It allows logging interactions (Call, Text, Video), tracking relationship goals, and visualizing analytics with charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+- React.js  
+- React Router DOM  
+- Tailwind CSS  
+- Recharts  
+- React Icons  
+- React Toastify  
 
-## React Compiler
+## ✨ Key Features
+1. **Friendship Analytics (Stats Page)**  
+   Interactive Pie Chart showing counts of Call, Text, and Video interactions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Timeline Page**  
+   Displays a chronological history of all interactions with filter options.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Friend Details Page**  
+   Two-column layout with profile info, stats cards, relationship goal, and quick check-in buttons that log interactions with toast notifications.
