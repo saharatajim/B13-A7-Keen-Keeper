@@ -5,20 +5,17 @@ import { TiMessageTyping } from "react-icons/ti";
 import { IoCall } from "react-icons/io5";
 const Timeline = () => {
 
-     const {timelineFriend}=useContext(TimelineFriendContext)
-     const [filterType,setFilterType]=useState("all")
-     useEffect(() => {
-  console.log("Filter type changed:", filterType);
-}, [filterType]);
+   const {timelineFriend}=useContext(TimelineFriendContext)
+   const [filterType,setFilterType]=useState("all")
    
- const [currentTime,setCurrentTime]=useState(new Date())
+   const [currentTime,setCurrentTime]=useState(new Date())
    useEffect(()=>{
-
     const timer=setInterval(()=>{
         setCurrentTime(new Date())
     },1000)
     return ()=>clearInterval(timer)
    },[])
+
    const formattedDate=currentTime.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",

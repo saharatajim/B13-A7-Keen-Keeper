@@ -24,7 +24,7 @@ const FriendDetails = () => {
 
 const handleCall=(expectedFriend,type)=>{
     toast(`${type} with ${expectedFriend.name} `)
- console.log(expectedFriend)
+//  console.log(expectedFriend)
 
 const newDataType={
     ...expectedFriend,
@@ -48,6 +48,7 @@ const newDataType={
 }
 setTimelineFriend([...timelineFriend,newDataType])
 }
+
 console.log(timelineFriend)
     return (
       <>
