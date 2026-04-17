@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Friend = ({friend}) => {
     return (
-        <div>
+        <Link to={`/friendDetails/${friend.id}`}>
             <div className=' shadow p-3 my-4 space-y-2 bg-base-100 text-center'>
                    <div className='flex justify-center'><img className='rounded-full' src={friend.picture} alt="" /></div>
                    <h1 className='font-bold'>{friend.name}</h1>
@@ -20,7 +21,7 @@ const Friend = ({friend}) => {
                     </div>
 
                 </div>
-        </div>
+        </Link>
     );
 };
 
